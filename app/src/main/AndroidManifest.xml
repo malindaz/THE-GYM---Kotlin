@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/gym_logo"
+        android:label="THE GYM"
+        android:roundIcon="@drawable/gym_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lab_Exam_3"
+        tools:targetApi="31">
+        <activity
+            android:name=".edit_profile"
+            android:exported="false" />
+        <activity
+            android:name=".my_profile"
+            android:exported="false" />
+        <activity
+            android:name=".menu"
+            android:exported="false" />
+        <activity
+            android:name=".find_a_gym"
+            android:exported="false" />
+        <activity
+            android:name=".my_gym"
+            android:exported="false" />
+        <activity
+            android:name=".add_gym"
+            android:exported="false" />
+        <activity
+            android:name=".home1"
+            android:exported="false" /> <!-- <meta-data -->
+        <!-- android:name="com.google.android.actions" -->
+        <!-- android:resource="@xml/actionsrounded_corner_background" /> -->
+        <activity
+            android:name=".addGym"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".terms"
+            android:exported="false" />
+        <activity
+            android:name=".sign_up"
+            android:exported="false" />
+        <activity
+            android:name=".sign_in"
+            android:exported="false" />
+        <activity
+            android:name=".get_started"
+            android:exported="false" />
+        <activity
+            android:name=".onboard1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".home1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="404dp"
+        android:layout_height="891dp"
+        android:layout_marginTop="36dp"
+        android:alpha="0.70"
+        android:background="@color/my_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="436dp"
+            android:layout_height="65dp"
+            android:background="?attr/colorSecondary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.906"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.001" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="436dp"
+            android:layout_height="65dp"
+            android:background="?attr/colorSecondary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.156"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.841" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+            android:contentDescription="@string/settings"
+            android:onClick="onClickhome"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/toolbar1"
+            app:layout_constraintHorizontal_bias="0.918"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/download" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="66dp"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/_name_"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.989"
+            app:srcCompat="@drawable/homen" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="76dp"
+            android:layout_height="64dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/_email_"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.841"
+            app:srcCompat="@drawable/loca" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="83dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="324dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/agree"
+            android:onClick="onClickMyProfile"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.997"
+            app:srcCompat="@drawable/prof" />
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTextText"-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="82dp"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="text"-->
+<!--            android:text="@string/the_gym"-->
+<!--            android:textColor="@color/my_primary"-->
+<!--            android:textSize="40sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.72"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.0" />-->
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="287dp"
+            android:layout_height="77dp"
+            android:backgroundTint="#EBEEF3"
+            android:text="@string/add_a_gym"
+            android:onClick="onAddGym"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.547"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.33" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="287dp"
+            android:layout_height="77dp"
+            android:backgroundTint="#EBEEF3"
+            android:text="@string/find_a_gym_"
+            android:onClick="onFindgym"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="202dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginEnd="152dp"
+            android:layout_marginBottom="2dp"
+            android:text="The Gym"
+            android:textColor="@color/my_primary"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button18"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.215"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.02" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
