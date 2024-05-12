@@ -16,6 +16,7 @@ class GymAdapter(private val gyms: List<GymDatabase.Gym>) : RecyclerView.Adapter
     override fun onBindViewHolder(holder: GymViewHolder, position: Int) {
         val gym = gyms[position]
         holder.bind(gym)
+
     }
 
     override fun getItemCount(): Int {
