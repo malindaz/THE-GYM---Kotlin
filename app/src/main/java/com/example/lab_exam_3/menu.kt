@@ -19,7 +19,7 @@ class menu : AppCompatActivity() {
         startActivity(intent)
     }
     fun onLogout(view: View) {
-        val intent = Intent(this, sign_in::class.java)
+        val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
     }
 }

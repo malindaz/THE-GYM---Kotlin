@@ -4,8 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.ImageButton
 
 class my_profile: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,7 +15,7 @@ class my_profile: AppCompatActivity() {
             startActivity(intent)
         }
         fun onLogout(view: View) {
-            val intent = Intent(this, sign_in::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
         fun ClickHome(view: View) {

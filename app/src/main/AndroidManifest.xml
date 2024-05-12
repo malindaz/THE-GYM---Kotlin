@@ -32,12 +32,11 @@
             android:exported="false" />
         <activity
             android:name=".home1"
-            android:exported="false" /> <!-- <meta-data -->
-        <!-- android:name="com.google.android.actions" -->
-        <!-- android:resource="@xml/actionsrounded_corner_background" /> -->
-        <activity
-            android:name=".addGym"
             android:exported="false" />
+        <activity
+            android:name=".add_gym"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".home"
             android:exported="false" />
@@ -45,10 +44,10 @@
             android:name=".terms"
             android:exported="false" />
         <activity
-            android:name=".sign_up"
+            android:name=".SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".sign_in"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".get_started"

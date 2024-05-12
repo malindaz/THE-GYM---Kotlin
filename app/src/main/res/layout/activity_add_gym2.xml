@@ -111,13 +111,12 @@
                 tools:layout_margin="6dp" />
 
             <EditText
-                android:id="@+id/editTextText2"
+                android:id="@+id/gymName"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-
                 android:background="@drawable/rounded_corner_background"
                 android:ems="10"
-                android:hint="Name"
+                android:hint="Enter Gym Name"
                 android:inputType="text"
                 android:textColor="@color/my_primary"
                 android:textColorHint="@color/my_primary"
@@ -144,12 +143,12 @@
                 tools:layout_margin="6dp" />
 
             <EditText
-                android:id="@+id/editTextText3"
+                android:id="@+id/gymLocation"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="@drawable/rounded_corner_background"
                 android:ems="10"
-                android:hint="Location"
+                android:hint="Enter Gym Location"
                 android:inputType="text"
                 android:textColor="@color/my_primary"
                 android:textColorHint="@color/my_primary"
@@ -176,12 +175,12 @@
                 tools:layout_margin="6dp" />
 
             <EditText
-                android:id="@+id/editTextText4"
+                android:id="@+id/gymFee"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="@drawable/rounded_corner_background"
                 android:ems="10"
-                android:hint="Fee"
+                android:hint="Enter Gym Fee"
                 android:inputType="text"
                 android:textColor="@color/my_primary"
                 android:textColorHint="@color/my_primary"
@@ -208,12 +207,12 @@
                 tools:layout_margin="6dp" />
 
             <EditText
-                android:id="@+id/editTextText5"
+                android:id="@+id/gymOpeningHours"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="@drawable/rounded_corner_background"
                 android:ems="10"
-                android:hint="@string/hour"
+                android:hint="Enter gym opening hours"
                 android:inputType="text"
                 android:textColor="@color/my_primary"
                 android:textColorHint="@color/my_primary"

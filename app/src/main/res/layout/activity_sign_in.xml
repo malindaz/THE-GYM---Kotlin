@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg1"
-    tools:context=".sign_in">
+    tools:context=".LoginActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/relativeLayout"
@@ -28,7 +28,7 @@
             android:outlineProvider="paddedBounds"
             android:text="@string/username"
             android:textColor="@color/my_primary"
-            android:textSize="18sp"
+            android:textSize="15sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -38,13 +38,13 @@
             app:layout_constraintVertical_bias="0.373" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress3"
+            android:id="@+id/loginUsername"
             android:layout_width="264dp"
             android:layout_height="48dp"
             android:ems="10"
             android:hint="@string/name"
             android:inputType="textEmailAddress"
-            android:textSize="15sp"
+            android:textSize="14sp"
             android:textColor="@color/my_primary"
             android:textColorHint="@color/my_primary"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -56,7 +56,7 @@
 
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/loginPassword"
             android:layout_width="269dp"
             android:layout_height="48dp"
             android:ems="10"
@@ -64,7 +64,7 @@
             android:inputType="textPassword"
             android:textColor="@color/my_primary"
             android:textColorHint="@color/my_primary"
-            android:textSize="15sp"
+            android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.466"
@@ -78,7 +78,7 @@
             android:layout_height="42dp"
             android:text="@string/password"
             android:textColor="@color/my_primary"
-            android:textSize="18sp"
+            android:textSize="15sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -102,7 +102,7 @@
             app:layout_constraintVertical_bias="0.655" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/LoginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/my_secondary"
@@ -118,7 +118,7 @@
             app:layout_constraintVertical_bias="0.597" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/signupRedirect"
             android:layout_width="179dp"
             android:layout_height="56dp"
             android:onClick="onSignUp"

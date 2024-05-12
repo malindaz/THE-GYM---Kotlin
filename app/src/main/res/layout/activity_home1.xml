@@ -106,22 +106,7 @@
             app:layout_constraintVertical_bias="0.997"
             app:srcCompat="@drawable/prof" />
 
-<!--        <EditText-->
-<!--            android:id="@+id/editTextText"-->
-<!--            android:layout_width="250dp"-->
-<!--            android:layout_height="82dp"-->
-<!--            android:ems="10"-->
-<!--            android:inputType="text"-->
-<!--            android:text="@string/the_gym"-->
-<!--            android:textColor="@color/my_primary"-->
-<!--            android:textSize="40sp"-->
-<!--            android:textStyle="bold"-->
-<!--            app:layout_constraintBottom_toBottomOf="parent"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintHorizontal_bias="0.72"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toTopOf="parent"-->
-<!--            app:layout_constraintVertical_bias="0.0" />-->
+
 
         <Button
             android:id="@+id/button17"
@@ -131,7 +116,7 @@
             android:text="@string/add_a_gym"
             android:onClick="onAddGym"
             android:textColor="@color/black"
-            android:textSize="24sp"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.547"
@@ -147,7 +132,7 @@
             android:text="@string/find_a_gym_"
             android:onClick="onFindgym"
             android:textColor="@color/black"
-            android:textSize="24sp"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.504"
