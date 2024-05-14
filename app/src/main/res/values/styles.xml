@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Add your other theme attributes here -->
+    <item name="android:windowBackground">@drawable/bg1</item>
+</style>
+
+
+</resources>

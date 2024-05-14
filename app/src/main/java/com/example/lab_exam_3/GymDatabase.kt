@@ -149,7 +149,12 @@ class GymDatabase(context: Context) :
         val location: String,
         val fee: Double,
         val openingHours: String
-    )
+    ) {
+        val id: Any
+            get() {
+                TODO()
+            }
+    }
 
     fun getAllGyms(): List<Gym> {
         val gymsList = mutableListOf<Gym>()
@@ -186,4 +191,25 @@ class GymDatabase(context: Context) :
         db.close()
         return gymsList
     }
+
+    fun deleteGym(id: Int) {
+        val db = writableDatabase
+        db.delete(TABLE_GYMS, "$COLUMN_ID=?", arrayOf(id.toString()))
+        db.close()
+    }
+
+    fun findViewById(gymId: Int) {
+
+    }
+
+
+    data class Gyms(
+        val id: Int, // Change the type to Int
+        val name: String,
+        val location: String,
+        val fee: Double,
+        val openingHours: String
+    )
+
+
 }

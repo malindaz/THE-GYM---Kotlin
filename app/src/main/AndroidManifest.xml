@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -26,6 +25,7 @@
             android:exported="false" />
         <activity
             android:name=".my_gym"
+            android:theme="@style/AppTheme"
             android:exported="false" />
         <activity
             android:name=".add_gym"
@@ -33,10 +33,10 @@
         <activity
             android:name=".home1"
             android:exported="false" />
-        <activity
-            android:name=".add_gym"
-            android:exported="false"
-            tools:ignore="DuplicateActivity" />
+<!--        <activity-->
+<!--            android:name=".add_gym"-->
+<!--            android:exported="false"-->
+<!--            tools:ignore="DuplicateActivity" />-->
         <activity
             android:name=".home"
             android:exported="false" />
@@ -60,11 +60,9 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

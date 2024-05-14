@@ -10,8 +10,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/relativeLayout"
-        android:layout_width="404dp"
-        android:layout_height="891dp"
+        android:layout_width="439dp"
+        android:layout_height="892dp"
         android:layout_marginTop="16dp"
         android:alpha="0.70"
         android:background="@color/my_primary"
@@ -81,8 +81,8 @@
 
         <LinearLayout
             android:id="@+id/linearLayout"
-            android:layout_width="362dp"
-            android:layout_height="416dp"
+            android:layout_width="403dp"
+            android:layout_height="502dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -108,7 +108,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.172"
-                tools:layout_margin="6dp" />
+                tools:layout_margin="8dp" />
 
             <EditText
                 android:id="@+id/gymName"
@@ -119,9 +119,9 @@
                 android:hint="Enter Gym Name"
                 android:inputType="text"
                 android:textColor="@color/my_primary"
-                android:textColorHint="@color/my_primary"
+                android:textColorHint="@color/my_Accent"
                 android:textSize="20sp"
-                tools:layout_margin="6dp" />
+                tools:layout_margin="8dp" />
 
             <TextView
                 android:id="@+id/textView11"
@@ -140,7 +140,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.172"
-                tools:layout_margin="6dp" />
+                tools:layout_margin="8dp" />
 
             <EditText
                 android:id="@+id/gymLocation"
@@ -151,9 +151,9 @@
                 android:hint="Enter Gym Location"
                 android:inputType="text"
                 android:textColor="@color/my_primary"
-                android:textColorHint="@color/my_primary"
+                android:textColorHint="@color/my_Accent"
                 android:textSize="20sp"
-                tools:layout_margin="6dp" />
+                tools:layout_margin="8dp" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -172,7 +172,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.172"
-                tools:layout_margin="6dp" />
+                tools:layout_margin="8dp" />
 
             <EditText
                 android:id="@+id/gymFee"
@@ -183,9 +183,9 @@
                 android:hint="Enter Gym Fee"
                 android:inputType="text"
                 android:textColor="@color/my_primary"
-                android:textColorHint="@color/my_primary"
+                android:textColorHint="@color/my_Accent"
                 android:textSize="20sp"
-                tools:layout_margin="6dp" />
+                tools:layout_margin="8dp" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -204,7 +204,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.172"
-                tools:layout_margin="6dp" />
+                tools:layout_margin="8dp" />
 
             <EditText
                 android:id="@+id/gymOpeningHours"
@@ -215,9 +215,9 @@
                 android:hint="Enter gym opening hours"
                 android:inputType="text"
                 android:textColor="@color/my_primary"
-                android:textColorHint="@color/my_primary"
+                android:textColorHint="@color/my_Accent"
                 android:textSize="20sp"
-                tools:layout_margin="6dp" />
+                tools:layout_margin="8dp" />
         </LinearLayout>
 
         <androidx.appcompat.widget.Toolbar
@@ -286,15 +286,17 @@
             android:layout_marginTop="45dp"
             android:layout_marginEnd="146dp"
             android:layout_marginBottom="65dp"
-            android:text="@string/add"
             android:onClick="onAddGym"
+            android:text="@string/add"
             android:textColor="@color/my_secondary"
             android:textSize="35sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/toolbar1"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.035" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
